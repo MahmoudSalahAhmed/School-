@@ -306,10 +306,10 @@ div.content {
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin-bottom: -60px;
+    margin-bottom: 60px;
 }
 .push {
-    height: 60px;
+    height: 100px;
 }
 
 .editbtn {
