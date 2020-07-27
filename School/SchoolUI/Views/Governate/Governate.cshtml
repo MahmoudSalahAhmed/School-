@@ -1,0 +1,47 @@
+﻿@using ViewModels
+@model IEnumerable<GovernateViewModel>
+
+
+<br><br>
+<div class="row">
+    @Html.ActionLink("Add Governate", "Add", "Governate", null, new { @class = "editbtn" })
+</div>
+<br>
+<div class="card-body">
+    <h5 class="card-title" style="color:#980827">Governate</h5>
+    <div class="table-responsive">
+        <table class="mb-2 table table-hover table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (GovernateViewModel Governate in Model)
+                {
+                    <tr>
+                        <th scope="row">@Governate.ID</th>
+                        <td>@Governate.Name</td>
+                        <td>
+                            <a href="@Url.Action("Update","Governate", new { id = Governate.ID })" class="fa fa-pencil"
+                               aria-hidden="true" style="font-size:25px ; color :#17700f">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="@Url.Action("Delete","Governate", new { id = Governate.ID })" class="fa fa-trash"
+                               aria-hidden="true" style="font-size:25px ; color :#821d1d">
+                            </a>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+

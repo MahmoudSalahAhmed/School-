@@ -1,0 +1,48 @@
+D:\Visual\Echo_Task\EchoTask\Entities\bin\Debug\Entities.dll.config
+D:\Visual\Echo_Task\EchoTask\Entities\bin\Debug\Entities.dll
+D:\Visual\Echo_Task\EchoTask\Entities\bin\Debug\Entities.pdb
+D:\Visual\Echo_Task\EchoTask\Entities\bin\Debug\EntityFramework.dll
+D:\Visual\Echo_Task\EchoTask\Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\Visual\Echo_Task\EchoTask\Entities\bin\Debug\EntityFramework.xml
+D:\Visual\Echo_Task\EchoTask\Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\Visual\Echo_Task\EchoTask\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+D:\Visual\Echo_Task\EchoTask\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+D:\Visual\Echo_Task\EchoTask\Entities\obj\Debug\Entities.csproj.CopyComplete
+D:\Visual\Echo_Task\EchoTask\Entities\obj\Debug\Entities.dll
+D:\Visual\Echo_Task\EchoTask\Entities\obj\Debug\Entities.pdb
+E:\New folder (2)\School-Management-System\EchoTask\Entities\bin\Debug\Entities.dll.config
+E:\New folder (2)\School-Management-System\EchoTask\Entities\bin\Debug\Entities.dll
+E:\New folder (2)\School-Management-System\EchoTask\Entities\bin\Debug\Entities.pdb
+E:\New folder (2)\School-Management-System\EchoTask\Entities\bin\Debug\EntityFramework.dll
+E:\New folder (2)\School-Management-System\EchoTask\Entities\bin\Debug\EntityFramework.SqlServer.dll
+E:\New folder (2)\School-Management-System\EchoTask\Entities\bin\Debug\EntityFramework.xml
+E:\New folder (2)\School-Management-System\EchoTask\Entities\bin\Debug\EntityFramework.SqlServer.xml
+E:\New folder (2)\School-Management-System\EchoTask\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+E:\New folder (2)\School-Management-System\EchoTask\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+E:\New folder (2)\School-Management-System\EchoTask\Entities\obj\Debug\Entities.csproj.CopyComplete
+E:\New folder (2)\School-Management-System\EchoTask\Entities\obj\Debug\Entities.dll
+E:\New folder (2)\School-Management-System\EchoTask\Entities\obj\Debug\Entities.pdb
+F:\E\New folder (2)\School\School\Entities\bin\Debug\Entities.dll.config
+F:\E\New folder (2)\School\School\Entities\bin\Debug\Entities.dll
+F:\E\New folder (2)\School\School\Entities\bin\Debug\Entities.pdb
+F:\E\New folder (2)\School\School\Entities\bin\Debug\EntityFramework.dll
+F:\E\New folder (2)\School\School\Entities\bin\Debug\EntityFramework.SqlServer.dll
+F:\E\New folder (2)\School\School\Entities\bin\Debug\EntityFramework.xml
+F:\E\New folder (2)\School\School\Entities\bin\Debug\EntityFramework.SqlServer.xml
+F:\E\New folder (2)\School\School\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+F:\E\New folder (2)\School\School\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+F:\E\New folder (2)\School\School\Entities\obj\Debug\Entities.csproj.CopyComplete
+F:\E\New folder (2)\School\School\Entities\obj\Debug\Entities.dll
+F:\E\New folder (2)\School\School\Entities\obj\Debug\Entities.pdb
+F:\E\Interview Tasks\Army Company\School\Entities\bin\Debug\Entities.dll.config
+F:\E\Interview Tasks\Army Company\School\Entities\bin\Debug\Entities.dll
+F:\E\Interview Tasks\Army Company\School\Entities\bin\Debug\Entities.pdb
+F:\E\Interview Tasks\Army Company\School\Entities\bin\Debug\EntityFramework.dll
+F:\E\Interview Tasks\Army Company\School\Entities\bin\Debug\EntityFramework.SqlServer.dll
+F:\E\Interview Tasks\Army Company\School\Entities\bin\Debug\EntityFramework.xml
+F:\E\Interview Tasks\Army Company\School\Entities\bin\Debug\EntityFramework.SqlServer.xml
+F:\E\Interview Tasks\Army Company\School\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+F:\E\Interview Tasks\Army Company\School\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+F:\E\Interview Tasks\Army Company\School\Entities\obj\Debug\Entities.csproj.CopyComplete
+F:\E\Interview Tasks\Army Company\School\Entities\obj\Debug\Entities.dll
+F:\E\Interview Tasks\Army Company\School\Entities\obj\Debug\Entities.pdb

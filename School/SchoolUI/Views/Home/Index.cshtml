@@ -1,0 +1,54 @@
+﻿@using ViewModels
+@model StatisticsViewModel
+
+
+<br>
+
+<div class="card-body">
+    <h5 class="card-title" style="color:#980827">Statistics</h5>
+    <div class="row">
+
+        <div class="col-md-3 col-xs-12 statistics">
+            <a class="custom" href="@Url.Action("Governate","Governate",null)">
+                <div class="card">
+                    <h2 class="card-title">Governates</h2>
+                    <p>@Model.Governates</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3 col-xs-12 statistics">
+            <a class="custom" href="@Url.Action("Neighborhood","Neighborhood",null)">
+                <div class="card">
+                    <h2 class="card-title">Neighborhoods</h2>
+                    <p>@Model.Neighborhoods</p>
+                </div>
+            </a>
+        </div>
+
+
+        <div class="col-md-3 col-xs-12 statistics">
+            <a class="custom" href="@Url.Action("Teacher","Teacher",null)">
+                <div class="card">
+                    <h2 class="card-title">Teachers</h2>
+                    <p>@Model.Teachers</p>
+                </div>
+            </a>
+        </div>
+
+
+        <div class="col-md-3 col-xs-12 statistics">
+            <a class="custom" href="@Url.Action("Student","Student",null)">
+                <div class="card" style="">
+                    <h2 class="card-title">Students</h2>
+                    <p>@Model.Students</p>
+                </div>
+            </a>
+        </div>
+
+
+
+    </div>
+</div>
+
+
+

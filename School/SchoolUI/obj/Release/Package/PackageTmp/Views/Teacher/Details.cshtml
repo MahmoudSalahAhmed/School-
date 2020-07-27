@@ -1,0 +1,52 @@
+﻿@using ViewModels
+@model TeacherViewModel
+
+
+
+<br><br>
+
+<table class="mb-2 table table-hover table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>BirthDate</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        <tr>
+            <th scope="row">@Model.ID</th>
+            <td>@Model.Name </td>
+            <td>@Model.BirthDate.ToLongDateString()</td>
+        </tr>
+
+       
+    </tbody>
+</table>
+<div class="row">
+    <div class="visible-md col-md-4 ">
+
+    </div>
+    <div class="col-md-2 col-xs-6">
+        <a class="dropdown-item mm-active">
+            @Html.ActionLink("Update", "Update", "Teacher", new { id = Model.ID }, new { @class = "editbtn" })
+        </a>
+    </div>
+    <div class="col-md-2 col-xs-6">
+        <a class="dropdown-item">
+            @Html.ActionLink("Delete", "Delete", "Teacher", new { id = Model.ID }, new { @class = "editbtn" })
+        </a>
+    </div>
+    
+</div>
+
+
+
+
+
+
+
+
+
+

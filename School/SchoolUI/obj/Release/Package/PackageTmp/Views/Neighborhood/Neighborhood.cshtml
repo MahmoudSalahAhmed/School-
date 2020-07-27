@@ -1,0 +1,50 @@
+﻿@using ViewModels
+@model IEnumerable<NeighborhoodViewModel>
+
+
+<br><br>
+<div class="row">
+    @Html.ActionLink("Add Neighborhood", "Add", "Neighborhood", null, new { @class = "editbtn" })
+</div>
+<br>
+<div class="card-body">
+    <h5 class="card-title" style="color:#980827">Neighborhood</h5>
+    <div class="table-responsive">
+        <table class="mb-2 table table-hover table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Neighborhood</th>
+                    <th>Governate</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (NeighborhoodViewModel Neighborhood in Model)
+                {
+                    <tr>
+                        <th scope="row">@Neighborhood.ID</th>
+                        <td>@Neighborhood.Name</td>
+                        <td>@Neighborhood.Governate.Name</td>
+                        <td>
+                            <a href="@Url.Action("Update","Neighborhood", new { id = Neighborhood.ID })" class="fa fa-pencil"
+                               aria-hidden="true" style="font-size:25px ; color :#17700f">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="@Url.Action("Delete","Neighborhood", new { id = Neighborhood.ID })" class="fa fa-trash"
+                               aria-hidden="true" style="font-size:25px ; color :#821d1d">
+                            </a>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+
+    </div>
+</div>
+
+
+

@@ -1,0 +1,73 @@
+﻿@using ViewModels
+@model StudentEditViewModel
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+<link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+<br><br>
+<div class="row">
+
+    <a href="@Url.Action("Student", "Student")" class="editbtn"><i class="fa fa-chevron-left" style="margin-right: 20px;"></i>back</a>
+</div>
+<br>
+<div class="card-body">
+    <h5 class="card-title" style="color:#980827">Update Student </h5>
+
+    @using (Html.BeginForm("Update", "Student", FormMethod.Post))
+    {
+        <div class="form-row">
+            <div class="col-md-4 col-xs-12">
+                <div class="position-relative form-group">
+                    <label for="name" class="">Name</label>
+                    @Html.TextBoxFor(i => i.Name, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(i => i.Name)
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div class="form-group">
+
+                    @Html.LabelFor(model => model.BirthDate, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class='input-group date' id='datetimepicker1'>
+                        @Html.EditorFor(model => model.BirthDate, new { htmlAttributes = new { id = "datatime", @class = "form-control" } })
+                    </div>
+                    @Html.ValidationMessageFor(model => model.BirthDate)
+
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div class="position-relative form-group">
+                    <label for="name" class="">Governates</label>
+                    @Html.DropDownListFor(i => i.GovernateID, new SelectList(ViewBag.Governates, "ID", "Name"), new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div class="position-relative form-group">
+                    <label for="name" class="">Neighborhoods</label>
+                    @Html.DropDownListFor(i => i.NeighborhoodID, new SelectList(ViewBag.Neighborhoods, "ID", "Name"), new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div class="position-relative form-group">
+                    <label for="name" class="">Fields</label>
+                    @Html.DropDownListFor(i => i.FieldID, new SelectList(ViewBag.Fields, "ID", "Name"), new { @class = "form-control" })
+                </div>
+            </div>
+
+        </div>
+        <button type="submit" style="background-color:#256154" class="editbtn">Update</button>
+
+    }
+</div>
+
+<script>
+    $('#datatime').datepicker({
+        uiLibrary: 'bootstrap4'
+    });
+</script>
+
+
+
+
+

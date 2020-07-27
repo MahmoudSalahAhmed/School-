@@ -1,0 +1,38 @@
+﻿@using ViewModels
+@model NeighborhoodEditViewModel
+
+
+
+<br>
+<br>
+<div class="row">
+    <a href="@Url.Action("Neighborhood", "Neighborhood")" class="editbtn"><i class="fa fa-chevron-left" style="margin-right: 20px;"></i>Back</a>
+</div>
+<br>
+<div class="card-body">
+    <h5 class="card-title" style="color:#980827">Add Neighborhood </h5>
+
+    @using (Html.BeginForm("Add", "Neighborhood", FormMethod.Post))
+    {
+    <div class="form-row">
+        <div class="col-md-4 col-xs-12">
+            <div class="position-relative form-group">
+                <label for="name">Neighborhood</label>
+                @Html.TextBoxFor(i => i.Name, new { @class = "form-control" })
+                @Html.ValidationMessageFor(i => i.Name)
+            </div>
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <div class="position-relative form-group">
+                <label for="name" class="">Governate</label>
+                @Html.DropDownListFor(i => i.GovernateID, new SelectList(ViewBag.Governates, "ID", "Name"), new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <button type="submit" class="editbtn">Add</button>
+        </div>
+    </div>  
+    }
+
+</div>
+

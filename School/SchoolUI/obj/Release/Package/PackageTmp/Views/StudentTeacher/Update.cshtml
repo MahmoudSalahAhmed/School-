@@ -1,0 +1,33 @@
+﻿@using ViewModels
+@model StudentTeacherViewModel
+
+
+<br><br>
+<div class="row">
+    <a href="@Url.Action("Details", "Student" , new { id = Model.StudentID})" class="editbtn"><i class="fa fa-chevron-left" style="margin-right: 20px;"></i>back</a>
+</div>
+<br>
+<div class="card-body">
+    <h5 class="card-title" style="color:#980827">Update Teacher for this Student </h5>
+
+    @using (Html.BeginForm("Update", "StudentTeacher", FormMethod.Post))
+    {
+        <div class="form-row">
+            <div class="col-md-4 col-xs-12">
+                <div class="position-relative form-group">
+                    <label for="name" class="">Teacher</label>
+                    @Html.DropDownListFor(i => i.TeacherID, new SelectList(ViewBag.Teachers, "ID", "Name"), new { @class = "form-control" })
+                </div>
+            </div>
+
+        </div>
+        <div class="position-relative form-group">
+            <button type="submit" style="background-color:#256154" class="editbtn">Update</button>
+        </div>
+    }
+
+</div>
+
+
+
+

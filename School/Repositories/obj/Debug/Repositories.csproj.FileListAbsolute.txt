@@ -1,0 +1,68 @@
+D:\Visual\Echo_Task\EchoTask\Repositories\bin\Debug\Repositories.dll.config
+D:\Visual\Echo_Task\EchoTask\Repositories\bin\Debug\Repositories.dll
+D:\Visual\Echo_Task\EchoTask\Repositories\bin\Debug\Repositories.pdb
+D:\Visual\Echo_Task\EchoTask\Repositories\bin\Debug\Entities.dll
+D:\Visual\Echo_Task\EchoTask\Repositories\bin\Debug\EntityFramework.dll
+D:\Visual\Echo_Task\EchoTask\Repositories\bin\Debug\EntityFramework.SqlServer.dll
+D:\Visual\Echo_Task\EchoTask\Repositories\bin\Debug\Entities.pdb
+D:\Visual\Echo_Task\EchoTask\Repositories\bin\Debug\Entities.dll.config
+D:\Visual\Echo_Task\EchoTask\Repositories\bin\Debug\EntityFramework.xml
+D:\Visual\Echo_Task\EchoTask\Repositories\bin\Debug\EntityFramework.SqlServer.xml
+D:\Visual\Echo_Task\EchoTask\Repositories\obj\Debug\Repositories.csprojAssemblyReference.cache
+D:\Visual\Echo_Task\EchoTask\Repositories\obj\Debug\Repositories.csproj.CoreCompileInputs.cache
+D:\Visual\Echo_Task\EchoTask\Repositories\obj\Debug\Repositories.csproj.CopyComplete
+D:\Visual\Echo_Task\EchoTask\Repositories\obj\Debug\Repositories.dll
+D:\Visual\Echo_Task\EchoTask\Repositories\obj\Debug\Repositories.pdb
+D:\Visual\Echo_Task\EchoTask\Repositories\obj\Debug\Repositories.Migrations.Init.resources
+D:\Visual\Echo_Task\EchoTask\Repositories\obj\Debug\Repositories.csproj.GenerateResource.cache
+E:\New folder (2)\School-Management-System\EchoTask\Repositories\bin\Debug\Repositories.dll.config
+E:\New folder (2)\School-Management-System\EchoTask\Repositories\bin\Debug\Repositories.dll
+E:\New folder (2)\School-Management-System\EchoTask\Repositories\bin\Debug\Repositories.pdb
+E:\New folder (2)\School-Management-System\EchoTask\Repositories\bin\Debug\Entities.dll
+E:\New folder (2)\School-Management-System\EchoTask\Repositories\bin\Debug\EntityFramework.dll
+E:\New folder (2)\School-Management-System\EchoTask\Repositories\bin\Debug\EntityFramework.SqlServer.dll
+E:\New folder (2)\School-Management-System\EchoTask\Repositories\bin\Debug\Entities.pdb
+E:\New folder (2)\School-Management-System\EchoTask\Repositories\bin\Debug\Entities.dll.config
+E:\New folder (2)\School-Management-System\EchoTask\Repositories\bin\Debug\EntityFramework.xml
+E:\New folder (2)\School-Management-System\EchoTask\Repositories\bin\Debug\EntityFramework.SqlServer.xml
+E:\New folder (2)\School-Management-System\EchoTask\Repositories\obj\Debug\Repositories.csprojAssemblyReference.cache
+E:\New folder (2)\School-Management-System\EchoTask\Repositories\obj\Debug\Repositories.csproj.CoreCompileInputs.cache
+E:\New folder (2)\School-Management-System\EchoTask\Repositories\obj\Debug\Repositories.csproj.CopyComplete
+E:\New folder (2)\School-Management-System\EchoTask\Repositories\obj\Debug\Repositories.dll
+E:\New folder (2)\School-Management-System\EchoTask\Repositories\obj\Debug\Repositories.pdb
+E:\New folder (2)\School-Management-System\EchoTask\Repositories\obj\Debug\Repositories.Migrations.Init.resources
+E:\New folder (2)\School-Management-System\EchoTask\Repositories\obj\Debug\Repositories.csproj.GenerateResource.cache
+F:\E\New folder (2)\School\School\Repositories\bin\Debug\Repositories.dll.config
+F:\E\New folder (2)\School\School\Repositories\bin\Debug\Repositories.dll
+F:\E\New folder (2)\School\School\Repositories\bin\Debug\Repositories.pdb
+F:\E\New folder (2)\School\School\Repositories\bin\Debug\Entities.dll
+F:\E\New folder (2)\School\School\Repositories\bin\Debug\EntityFramework.dll
+F:\E\New folder (2)\School\School\Repositories\bin\Debug\EntityFramework.SqlServer.dll
+F:\E\New folder (2)\School\School\Repositories\bin\Debug\Entities.pdb
+F:\E\New folder (2)\School\School\Repositories\bin\Debug\Entities.dll.config
+F:\E\New folder (2)\School\School\Repositories\bin\Debug\EntityFramework.xml
+F:\E\New folder (2)\School\School\Repositories\bin\Debug\EntityFramework.SqlServer.xml
+F:\E\New folder (2)\School\School\Repositories\obj\Debug\Repositories.csprojAssemblyReference.cache
+F:\E\New folder (2)\School\School\Repositories\obj\Debug\Repositories.Migrations.Init.resources
+F:\E\New folder (2)\School\School\Repositories\obj\Debug\Repositories.csproj.GenerateResource.cache
+F:\E\New folder (2)\School\School\Repositories\obj\Debug\Repositories.csproj.CoreCompileInputs.cache
+F:\E\New folder (2)\School\School\Repositories\obj\Debug\Repositories.csproj.CopyComplete
+F:\E\New folder (2)\School\School\Repositories\obj\Debug\Repositories.dll
+F:\E\New folder (2)\School\School\Repositories\obj\Debug\Repositories.pdb
+F:\E\Interview Tasks\Army Company\School\Repositories\bin\Debug\Repositories.dll.config
+F:\E\Interview Tasks\Army Company\School\Repositories\bin\Debug\Repositories.dll
+F:\E\Interview Tasks\Army Company\School\Repositories\bin\Debug\Repositories.pdb
+F:\E\Interview Tasks\Army Company\School\Repositories\bin\Debug\Entities.dll
+F:\E\Interview Tasks\Army Company\School\Repositories\bin\Debug\EntityFramework.dll
+F:\E\Interview Tasks\Army Company\School\Repositories\bin\Debug\EntityFramework.SqlServer.dll
+F:\E\Interview Tasks\Army Company\School\Repositories\bin\Debug\Entities.pdb
+F:\E\Interview Tasks\Army Company\School\Repositories\bin\Debug\Entities.dll.config
+F:\E\Interview Tasks\Army Company\School\Repositories\bin\Debug\EntityFramework.xml
+F:\E\Interview Tasks\Army Company\School\Repositories\bin\Debug\EntityFramework.SqlServer.xml
+F:\E\Interview Tasks\Army Company\School\Repositories\obj\Debug\Repositories.csprojAssemblyReference.cache
+F:\E\Interview Tasks\Army Company\School\Repositories\obj\Debug\Repositories.csproj.CoreCompileInputs.cache
+F:\E\Interview Tasks\Army Company\School\Repositories\obj\Debug\Repositories.csproj.CopyComplete
+F:\E\Interview Tasks\Army Company\School\Repositories\obj\Debug\Repositories.dll
+F:\E\Interview Tasks\Army Company\School\Repositories\obj\Debug\Repositories.pdb
+F:\E\Interview Tasks\Army Company\School\Repositories\obj\Debug\Repositories.Migrations.Init.resources
+F:\E\Interview Tasks\Army Company\School\Repositories\obj\Debug\Repositories.csproj.GenerateResource.cache
